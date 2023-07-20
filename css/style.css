@@ -1,5 +1,11 @@
-.webstudio-link {
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
   text-decoration: none;
-  font-size: 30px;
-  line-height: 1.5px;
 }
