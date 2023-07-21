@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
 
+:root {
+  --primary-iris-color: #4d5ae5;
+  --primary-navyblue-color: #2e2f42;
+  --primary-slate-color: #434455;
+  --primary-orange-color: orange;
+  --primary-white-color: #fff;
+  --background-color-navyblue: #2e2f42;
+  --background-color-white: #fff;
+  --background-color-cloud: #f4f4fd;
+  --background-color-iris: #4d5ae5;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -11,9 +23,93 @@ body {
 .link {
   text-decoration: none;
 }
+/*Header*/
+.header {
+  background-color: var(--background-color-white);
+}
 
-.section-title {
-  font-family: "Roboto", sans-serif;
+.header-navigation {
+}
+.header-logo {
+  text-decoration: none;
+  list-style: none;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.header-logo1 {
+  color: var(--primary-iris-color);
+}
+
+.header-logo2 {
+  color: var(--background-color-navyblue);
+}
+.header-list {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.header-item {
+  background-color: var(--background-color-white);
+}
+
+.header-link {
+  color: var(--primary-navyblue-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--primary-iris-color);
+}
+
+.header-address {
+  color: var(--primary-slate-color);
+}
+
+.header-address-link {
+  color: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/*Section 1 Button*/
+.section-button {
+  background-color: var(--background-color-iris);
+}
+
+.button {
+  color: var(--primary-white-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+/*Section 2 Categories*/
+.categories {
+  background-color: var(--background-color-white);
+}
+
+.categories-title {
+  color: var(--primary-navyblue-color);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -21,11 +117,83 @@ body {
   letter-spacing: 0.4px;
 }
 
-.button {
-  font-family: inherit;
+.categories-item-text {
+  color: var(--primary-slate-color);
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
+  letter-spacing: 0.32px;
+}
+
+/*Section 3 Devices*/
+.devices {
+  background-color: var(--background-color-white);
+}
+
+.devices-title {
+  text-align: center;
+  color: var(--primary-navyblue-color);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.devices-item {
+}
+
+/*Section 4 Staffs*/
+.staffs {
+  background-color: var(--background-color-white);
+}
+
+.staffs-title {
+  text-align: center;
+  color: var(--primary-navyblue-color);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.staffs-item-title {
+  color: var(--primary-navyblue-color);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.staffs-item-text {
+  color: var(--primary-navyblue-color);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/*Footer*/
+.footer {
+  background-color: var(--background-color-navyblue);
+}
+
+.footer-logo {
+}
+
+.footer-text {
+  color: var(--primary-white-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
