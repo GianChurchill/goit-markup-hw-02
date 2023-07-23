@@ -118,12 +118,12 @@ body {
   letter-spacing: 0.32px;
 }
 
-/*Section 3 Devices*/
-.devices {
+/*Section 3 Platform*/
+.platform {
   background-color: var(--background-color-white);
 }
 
-.devices-title {
+.platform-title {
   text-align: center;
   color: var(--primary-navyblue-color);
   font-size: 36px;
