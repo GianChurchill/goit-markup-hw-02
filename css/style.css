@@ -22,11 +22,11 @@ body {
   text-decoration: none;
 }
 /*Header*/
-.header {
+.page-header {
   background-color: var(--background-color-white);
 }
 
-.header-logo {
+.logo-link {
   text-decoration: none;
   list-style: none;
   font-family: Raleway;
@@ -37,25 +37,25 @@ body {
   text-transform: uppercase;
 }
 
-.header-logo1 {
+.logo {
   color: var(--primary-iris-color);
 }
 
-.header-logo2 {
+.studio {
   color: var(--background-color-navyblue);
 }
-.header-list {
+.nav-menu {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
 
-.header-item {
+.current {
   background-color: var(--background-color-white);
 }
 
-.header-link {
+.page {
   color: var(--primary-navyblue-color);
   font-size: 16px;
   font-weight: 500;
@@ -63,16 +63,16 @@ body {
   letter-spacing: 0.32px;
 }
 
-.header-link:hover,
-.header-link:focus {
+.logo-link:hover,
+.logo-link:focus {
   color: var(--primary-iris-color);
 }
 
-.header-address {
+.contacts-menu {
   color: var(--primary-slate-color);
 }
 
-.header-address-link {
+.item {
   color: inherit;
   font-size: 16px;
   line-height: 24px; /* 150% */
@@ -98,11 +98,11 @@ body {
 
 /*Section 2 Categories*/
 
-.categories {
+.section {
   background-color: var(--background-color-white);
 }
 
-.categories-title {
+.title {
   color: var(--primary-navyblue-color);
   font-size: 20px;
   font-weight: 500;
@@ -110,7 +110,7 @@ body {
   letter-spacing: 0.4px;
 }
 
-.categories-item-text {
+.description {
   color: var(--primary-slate-color);
   font-size: 16px;
   font-weight: 400;
@@ -119,11 +119,7 @@ body {
 }
 
 /*Section 3 Platform*/
-.platform {
-  background-color: var(--background-color-white);
-}
-
-.platform-title {
+.section-title {
   text-align: center;
   color: var(--primary-navyblue-color);
   font-size: 36px;
@@ -148,7 +144,7 @@ body {
   text-transform: capitalize;
 }
 
-.staffs-item-title {
+.name {
   color: var(--primary-navyblue-color);
   text-align: center;
   font-size: 20px;
@@ -157,7 +153,7 @@ body {
   letter-spacing: 0.4px;
 }
 
-.staffs-item-text {
+.position {
   color: var(--primary-navyblue-color);
   text-align: center;
   font-size: 16px;
@@ -166,19 +162,12 @@ body {
 }
 
 /*Footer*/
-footer {
+.page-footer {
   background-color: var(--background-color-navyblue);
-}
-
-.footer-logo {
   font-family: Raleway;
 }
 
-.footer-logo1 {
-  color: var(--primary-iris-color);
-}
-
-.footer-logo2 {
+.studio-footer {
   color: var(--primary-white-color);
 }
 

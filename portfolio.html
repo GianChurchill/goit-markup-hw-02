@@ -11,146 +11,171 @@
     />
   </head>
   <body>
-    <header class="header">
-      <nav class="header-navigation">
-        <a class="header-logo" href="#">
-          <span class="header-logo1">WEB</span>
-          <span class="header-logo2">STUDIO</span>
+    <!--Header-->
+    <header class="page-header">
+      <!--Navigation-->
+      <nav>
+        <a class="logo-link" href="#">
+          <span class="logo">WEB</span>
+          <span class="studio">STUDIO</span>
         </a>
 
-        <ul class="header-list list">
-          <li class="header-item">
-            <a class="header-link link" href="./index.html">Studio</a>
+        <ul class="nav-menu list">
+          <li>
+            <a class="page current" href="./index.html">Studio</a>
           </li>
-          <li class="header-item">
-            <a class="header-link link" href="./portfolio.html">Portfolio</a>
+          <li>
+            <a class="page" href="./portfolio.html">Portfolio</a>
           </li>
-          <li class="header-item">
-            <a class="header-link link" href="#">Contacts</a>
+          <li>
+            <a class="page" href="#">Contacts</a>
           </li>
         </ul>
       </nav>
 
-      <ul class="header-address list">
+      <!--Contacts-->
+      <ul class="contacts-menu list">
         <li>
-          <a class="header-address link" href="mailto:info@devstudio.com"
+          <a class="item" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a class="header-address link" href="tel:+110001111111"
-            >+11 (000) 111-11-11</a
-          >
+          <a class="item" href="tel:+110001111111">+11 (000) 111-11-11</a>
         </li>
       </ul>
     </header>
+
     <main>
       <!--Section 1-->
-      <section class="header">
-        <nav>
-          <ul class="header-list list">
-            <li class="header-item">
-              <a class="header-link link" href="#">All</a>
+      <section class="section">
+        <div class="container">
+          <ul class="filters list">
+            <li>
+              <button type="button" class="button filter current">All</button>
             </li>
-            <li class="header-item">
-              <a class="header-link link" href="#">Web Site</a>
+            <li>
+              <button type="button" class="button filter">Web Site</button>
             </li>
-            <li class="header-item">
-              <a class="header-link link" href="#">App</a>
+            <li>
+              <button type="button" class="button filter">App</button>
             </li>
-            <li class="header-item">
-              <a class="header-link link" href="#">Design</a>
+            <li>
+              <button type="button" class="button filter">Design</button>
             </li>
-            <li class="header-item">
-              <a class="header-link link" href="#">Marketing</a>
+            <li>
+              <button type="button" class="button filter">Marketing</button>
             </li>
           </ul>
-        </nav>
-      </section>
-      <!--Section 2-->
-      <section class="platform">
-        <div>
-          <ul class="platform-list list">
-            <li class="platform-item">
-              <img
-                src="./images/portfolio-images/banking-app.jpg"
-                alt="banking-app"
-                width="350"
-              />
-              <h3>Banking App Interface Concept</h3>
-              <p>App</p>
+          <!--Projecter-->
+          <ul class="projects list">
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/portfolio-images/banking-app.jpg"
+                  alt="banking-app"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Banking App Interface Concept</h2>
+                <p class="type">App</p>
+              </a>
             </li>
-            <li class="platform-item">
-              <img
-                src="./images/portfolio-images/cashless-payment.jpg"
-                alt="cashless-payment"
-                width="350"
-              />
-              <h3>Cashless Payment</h3>
-              <p>Marketing</p>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/portfolio-images/cashless-payment.jpg"
+                  alt="cashless-payment"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Cashless Payment</h2>
+                <p class="type">Marketing</p>
+              </a>
             </li>
-            <li class="platform-item">
-              <img
-                src="./images/portfolio-images/meditation-app.jpg"
-                alt="meditation-app"
-                width="350"
-              />
-              <h3>Meditation App</h3>
-              <p>App</p>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/portfolio-images/meditation-app.jpg"
+                  alt="meditation-app"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Meditation App</h2>
+                <p class="type">App</p>
+              </a>
             </li>
-            <li class="platform-item">
-              <img
-                src="./images/portfolio-images/taxi-service.jpg"
-                alt="taxi-service"
-                width="350"
-              />
-              <h3>Taxi Service</h3>
-              <p>Marketing</p>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/portfolio-images/taxi-service.jpg"
+                  alt="taxi-service"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Taxi Service</h2>
+                <p class="type">Marketing</p>
+              </a>
             </li>
-            <li class="platform-item">
-              <img
-                src="./images/portfolio-images/screen-illustrations.jpg"
-                alt="screen-illustrations"
-                width="350"
-              />
-              <h3>Screen Illustrations</h3>
-              <p>Design</p>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/portfolio-images/screen-illustrations.jpg"
+                  alt="screen-illustrations"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Screen Illustrations</h2>
+                <p class="type">Design</p>
+              </a>
             </li>
-            <li class="platform-item">
-              <img
-                src="./images/portfolio-images/online-courses.jpg"
-                alt="online-courses"
-                width="350"
-              />
-              <h3>Online Courses</h3>
-              <p>Marketing</p>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/portfolio-images/online-courses.jpg"
+                  alt="online-courses"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Online Courses</h2>
+                <p class="type">Marketing</p>
+              </a>
             </li>
-            <li class="platform-item">
-              <img
-                src="./images/portfolio-images/instagram-stories.jpg"
-                alt="instagram-stories"
-                width="350"
-              />
-              <h3>Instagram Stories Concept</h3>
-              <p>Design</p>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/portfolio-images/instagram-stories.jpg"
+                  alt="instagram-stories"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Instagram Stories Concept</h2>
+                <p class="type">Design</p>
+              </a>
             </li>
-            <li class="platform-item">
-              <img
-                src="./images/portfolio-images/organic-food.jpg"
-                alt="organic-food"
-                width="350"
-              />
-              <h3>Organic Food</h3>
-              <p>Web Site</p>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/portfolio-images/organic-food.jpg"
+                  alt="organic-food"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Organic Food</h2>
+                <p class="type">Web Site</p>
+              </a>
             </li>
-            <li class="platform-item">
-              <img
-                src="./images/portfolio-images/fresh-coffee.jpg"
-                alt="fresh-coffee"
-                width="350"
-              />
-              <h3>Fresh Coffee</h3>
-              <p>Web Site</p>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/portfolio-images/fresh-coffee.jpg"
+                  alt="fresh-coffee"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Fresh Coffee</h2>
+                <p class="type">Web Site</p>
+              </a>
             </li>
           </ul>
         </div>
@@ -158,14 +183,14 @@
     </main>
 
     <!--Footer-->
-    <footer>
+    <footer class="page-footer bg-footer">
       <div>
-        <a class="footer-logo link" href="#">
-          <span class="footer-logo1">WEB</span>
-          <span class="footer-logo2">STUDIO</span></a
-        >
+        <a class="logo-link" href="#">
+          <span class="logo">WEB</span>
+          <span class="studio-footer">STUDIO</span>
+        </a>
 
-        <p class="footer-text">
+        <p class="footer-description">
           Increase the flow of customers and <br />
           sales for your business with digital <br />
           marketing & growth solutions.
