@@ -13,22 +13,17 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-/*Header*/
+/*Navigation*/
 .page-header {
   background-color: var(--background-color-white);
 }
 
 .logo-link {
   text-decoration: none;
-  list-style: none;
+}
+
+.logo {
+  color: var(--primary-iris-color);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -37,13 +32,25 @@ body {
   text-transform: uppercase;
 }
 
-.logo {
-  color: var(--primary-iris-color);
+.studio {
+  color: var(--primary-navyblue-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
-.studio {
-  color: var(--background-color-navyblue);
+.studio-footer {
+  color: var(--background-color-cloud);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
+
 .nav-menu {
   font-size: 16px;
   font-weight: 500;
@@ -51,42 +58,37 @@ body {
   letter-spacing: 0.32px;
 }
 
-.current {
-  background-color: var(--background-color-white);
-}
-
 .page {
-  color: var(--primary-navyblue-color);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  text-decoration: none;
 }
 
-.logo-link:hover,
-.logo-link:focus {
-  color: var(--primary-iris-color);
+/*Contacts*/
+.contact-menu {
 }
 
-.contacts-menu {
-  color: var(--primary-slate-color);
+.list {
+  list-style: none;
 }
 
 .item {
-  color: inherit;
-  font-size: 16px;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  text-decoration: none;
 }
 
-/*Section 1 Button*/
+/*Section 1*/
 
-.section-button:hover,
-.section-button:focus {
-  color: var(--primary-navyblue-color);
+.hero {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
 }
 
-.button {
+.bg-hero {
+  background-color: var(--background-color-navyblue);
+}
+
+.button:hover,
+.button:focus {
   background-color: var(--background-color-iris);
   color: var(--primary-white-color);
   font-family: inherit;
@@ -95,11 +97,18 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
 }
+.primary {
+  background-color: var(--background-color-iris);
+}
 
-/*Section 2 Categories*/
-
+/*Section 2*/
 .section {
-  background-color: var(--background-color-white);
+}
+
+.container {
+}
+
+.benefits {
 }
 
 .title {
@@ -118,10 +127,9 @@ body {
   letter-spacing: 0.32px;
 }
 
-/*Section 3 Platform*/
 .section-title {
-  text-align: center;
   color: var(--primary-navyblue-color);
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px; /* 111.111% */
@@ -129,24 +137,20 @@ body {
   text-transform: capitalize;
 }
 
-/*Section 4 Staffs*/
-.staffs {
-  background-color: var(--background-color-white);
+/*Section 3*/
+.what-we-do {
 }
 
-.staffs-title {
-  text-align: center;
-  color: var(--primary-navyblue-color);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 40px; /* 111.111% */
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
+.bg-team {
+  background-color: var(--background-color-cloud);
+}
+
+/*Section 4*/
+.team {
 }
 
 .name {
   color: var(--primary-navyblue-color);
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px; /* 120% */
@@ -154,26 +158,54 @@ body {
 }
 
 .position {
-  color: var(--primary-navyblue-color);
-  text-align: center;
+  color: var(--primary-slate-color);
   font-size: 16px;
+  font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
 
 /*Footer*/
 .page-footer {
+}
+
+.bg-footer {
   background-color: var(--background-color-navyblue);
-  font-family: Raleway;
 }
 
-.studio-footer {
-  color: var(--primary-white-color);
-}
-
-.footer-text {
-  color: var(--primary-white-color);
+.footer-description {
+  color: var(--background-color-cloud);
   font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/*Portfolio-Section 1*/
+
+.filters {
+}
+
+.filter {
+  background-color: var(--background-color-cloud);
+  color: var(--primary-iris-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+/*Projecter*/
+
+.project {
+  text-decoration: none;
+}
+
+.type {
+  color: var(--primary-slate-color);
+  font-size: 16px;
+  font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
